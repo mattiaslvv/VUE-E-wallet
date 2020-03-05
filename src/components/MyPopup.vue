@@ -44,16 +44,16 @@ export default {
 #wrapper {
   background: linear-gradient(
       248.3deg,
-      hsl(0, 100%, 87%),
-      hsla(0, 100%, 90%, 0.856)
+      hsla(0, 65%, 34%, 0.287),
+      hsla(0, 32%, 36%, 0.582)
     ),
     #222;
   color: rgb(255, 255, 255);
   position: fixed;
   left: 50%;
   right: 50%;
+  top: 25%;
   transform: translateX(-50%);
-  bottom: 50%;
   width: 250px;
   border: 2px solid rgb(255, 255, 255);
 

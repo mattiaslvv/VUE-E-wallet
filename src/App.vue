@@ -30,19 +30,22 @@ export default {
     for(let i = 0; i < this.cards.length; i++) {
       this.cards[i].id = i + 1
       console.log(this.cards[i].id)
-    }
+    } 
     location.reload();
   }
 }, watch: {
   cards: {
-    handler() { console.log('Cards changed!');
+    handler() { 
+    console.log('Cards changed!');
     localStorage.setItem('cards', JSON.stringify(this.cards));
     },
     deep: true,
   },
 }, mounted() {
   console.log('App mounted!');
-  if (localStorage.getItem('cards')) this.cards = JSON.parse(localStorage.getItem('cards'));
+  if (localStorage.getItem('cards')) {
+    this.cards = JSON.parse(localStorage.getItem('cards'));
+    }
 },
 }
 </script>

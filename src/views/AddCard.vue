@@ -23,7 +23,7 @@ export default {
       return {
         topMessage: "Add new card",
         cardFull: {
-          id: "X", cardnumber: "XXXX XXXX XXXX", cardholder: "XXXXXXXXXXXX", expyear: "XX", expmonth: "XX", ccv: "XXX", vendor: ""
+          id: "X", cardnumber: "XXXXXXXXXXXXXXXX", cardholder: "XXXXXXXXXXXX", expyear: "XX", expmonth: "XX", ccv: "XXX", vendor: ""
         }
       }
     }, 

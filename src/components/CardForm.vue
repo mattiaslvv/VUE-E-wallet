@@ -7,7 +7,7 @@
       v-model="newCard.cardnumber"
       maxlength="16"
       class="col-2"
-      placeholder="XXXX XXXX XXXX"
+      placeholder="XXXX-XXXX-XXXX-XXXX"
     />
     <label for="cardholder" class="col-2">Enter full name:</label>
     <input
